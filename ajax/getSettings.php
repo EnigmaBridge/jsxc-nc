@@ -68,6 +68,7 @@ if (validateBoolean($config->getAppValue('ojsxc', 'xmppPreferMail'))) {
 }
 
 if (validateBoolean($config->getAppValue('ojsxc', 'timeLimitedToken'))) {
+   $data['xmpp']['username'] = str_replace('@', '_', $currentUID);
    $data['xmpp']['username'] = $currentUID;
    $jid = $data['xmpp']['username'] . '@' . $data['xmpp']['domain'];
    $expiry = time() + 60*60;
