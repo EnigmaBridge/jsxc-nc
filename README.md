@@ -1,5 +1,13 @@
-# JSXC XMM CHat app for NextCloud
+# JSXC XMPP Chat app for NextCloud
 
-https://apps.nextcloud.com/apps/ojsxc
+NextCloud plugin provides interactive communication with other members via XMPP.
 
-https://github.com/jeffpc/guilt is used for patch management
+Project url: https://apps.nextcloud.com/apps/ojsxc
+
+Part of EnigmaBridge PrivateSpace.
+
+## Development
+
+[guilt](https://github.com/jeffpc/guilt) is used for patch management
+
+
